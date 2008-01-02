@@ -13,6 +13,7 @@ License:	GPL
 Url:		http://tapioca-voip.sourceforge.net/wiki/index.php/Tapioca
 Group:		Networking/Instant messaging
 Source0:	http://ovh.dl.sourceforge.net/sourceforge/tapioca-voip/%{name}-%{version}.tar.bz2
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires: 	libfarsight
 BuildRequires: gtk2-devel 
 BuildRequires: glib2-devel 
