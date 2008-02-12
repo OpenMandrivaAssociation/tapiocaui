@@ -24,7 +24,6 @@ BuildRequires: tapioca-devel
 BuildRequires: libxml-devel
 
 %description
-
 Tapioca is a framework for Voice over IP (VoIP) and 
 Instant Messaging (IM). Its main goal is to provide 
 an easy way for developing and using VoIP and IM 
