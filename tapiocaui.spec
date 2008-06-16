@@ -3,7 +3,7 @@
 
 %define	name tapiocaui
 %define	version 0.3.0
-%define	release %mkrel 3
+%define	release %mkrel 4
 
 Summary:	A framework for Voice over IP (VoIP) and Instant Messaging (IM)		
 Name:		%{name}
