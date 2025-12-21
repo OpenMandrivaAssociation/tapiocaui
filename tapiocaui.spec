@@ -15,6 +15,11 @@ Group:		Networking/Instant messaging
 Source0:	http://ovh.dl.sourceforge.net/sourceforge/tapioca-voip/%{name}-%{version}.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires: 	libfarsight
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: gtk2-devel 
 BuildRequires: glib2-devel 
 BuildRequires: dbus-devel 
